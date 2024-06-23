@@ -22,6 +22,7 @@ export const Card = ({
 }: Props) => {
   return (
     <div
+      onClick={() => onClick(id)}
       className={cn(
         `
           h-full
